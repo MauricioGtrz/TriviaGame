@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trivia Game!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>Pokemon Trivia! (Gen 1)</h1>
+        <div id = "time">
+            Time Remaining: 
+            <div id="countdown"></div>    
+        </div>    
+        <div id="questions">
+            <form id="question1">
+                <img src="assets/images/Pikachu.png" alt="Pikachu Picture" height="200" width="200">
+                <h2>Question 1: What is the name of the Pokemon above? <br></h2> 
+                <input type="radio" id="pikachu" name="answer1">
+                <label for="male">Pikachu</label>
+                <input type="radio" id="charmander" name="answer1">
+                <label for="female">Charmander</label>
+                <input type="radio" id="squirtle" name="answer1">
+                <label for="other">Squirtle</label>
+            </form>
+            <form id="question2">
+                <h2>Question 2: Which one of these moves is Grass type?<br></h2>
+                <input type="radio" id="male" name="answer2">
+                <label for="male">Absorb</label>
+                <input type="radio" id="female" name="answer2">
+                <label for="female">Mist</label>
+                <input type="radio" id="other" name="answer2">
+                <label for="other">Low Kick</label>
+            </form>
+            <form id="question3">
+                <h2>Question 3: Which item will level up your Pokemon by one. <br></h2>
+                <input type="radio" id="male" name="answer3">
+                <label for="male">Max Elixer</label>
+                <input type="radio" id="female" name="answer3">
+                <label for="female">PP UP</label>
+                <input type="radio" id="other" name="answer3">
+                <label for="other">Rare Candy</label>
+            </form>
+            <form id="question4">
+                <br><img src="assets/images/lavenderTown.jpeg" alt="Lavender Town" height="300" width="400">
+                <h2>Question 4: What is the name of the place above? <br></h2>
+                <input type="radio" id="male" name="answer4">
+                <label for="male">Pallet Town</label>
+                <input type="radio" id="female" name="answer4">
+                <label for="female">Lavender Town</label>
+                <input type="radio" id="other" name="answer4">
+                <label for="other">Viridian City</label>
+            </form>
+            <form id="question5">
+                <h2>Question 5: Which move does more base damage? <br></h2>
+                <input type="radio" id="male" name="answer5">
+                <label for="male">Pound</label>
+                <input type="radio" id="female" name="answer5">
+                <label for="female">Headbutt</label>
+                <input type="radio" id="other" name="answer5">
+                <label for="other">Thrash</label>
+            </form>
+        </div>
+        <div id="buttonArea">
+            <button id="button">
+                Done
+            </button>
+        </div>
+    </div>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
